@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+      <link href="style2.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+        <link rel="icon" href="IMG/icono-ciudad-png-6.png">
+      <title>Promocje</title>
+    </head>
+      <body> 
+           <header>
+               <h2>Big City Big Travel </h2>
+             <nav>
+               <ul> 
+                
+                   <li> <a href="index.html">Strona główna </a> </li>
+                
+                   <li><a href="Kontakt.html"> Kontakt</a> </li>
+                 </ul>
+              </nav>
+               </header>
+          <main>
+          
+           
+              <div id="banner"> <img src="IMGO/Nowy%20jork.png" id="banerek" alt="Obraz"> <hr>  
+             
+                    
+                  </div>
+             
+            
+           
+               <hr> 
+            <div class="napis"> <h1> ZIMA 2021  </h1>  </div>
+             
+              <hr>
+         
+              <div id="opis_promocji"> 
+                 
+                  <img src="IMGO/tokio_-40%25.png" id="Promka"  alt="Obraz"  > 
+   <div id="hh"><div id="h"> </div> </div>
+             
+
+             </div>
+            
+              <div id="prawo">                    
+             <div class="karta"> 
+                <div >  
+                   <img src="IMG/tokio-ma%C5%82e-tylko%20teraz%20.png" id="jeden" alt="Obraz">  
+                </div>
+                <h3 class="promki" >    </h3>
+                <p class="opis"> 
+                 
+                </p>
+             </div>
+              
+             <div class="karta"> 
+                <div >  
+                   <img src="IMG/tokio-ma%C5%82e_najlepsza.png" id="dwa" alt="Obraz">
+                </div>
+                <h3 class="promki">     </h3>
+                <p class="opis"> 
+
+                </p>
+             </div>
+              
+                <div class="karta"> 
+                <div >  
+                    <img src="IMG/Tokio_gwarancja%20.png" id="trzy" alt="Obraz">  
+                </div>
+                <h3 class="promki">   </h3>
+                <p class="opis"> 
+                   
+                </p>
+             </div>
+              
+                <div class="karta"> 
+                <div >  
+                  <img src="IMG/tokio_hotel.png" id="cztery" alt="Obraz">  
+                </div>
+                <h3 class="promki"> </h3>
+                <p class="opis"> 
+                 
+                </p>
+             </div>
+              </div>
+              
+            <div class="napis"></div>
+            
+              </main>
+    <footer>
+          <hr > 
+         <p> <b>  Copyright 2021 Filip Dziedzic 3f ZSE  </b> </p>
+        <div id="data"> </div>
+       
+        
+        <script > 
+        
+                        function data()
+                        {
+                            var a = new Date();
+                            var b = a.toLocaleString();
+                            document.getElementById("data").innerHTML = b;
+                            }
+                        data();
+                        setInterval("data()", 1000);
+
+        function wakacje(){
+        var obecnie=new Date();
+        var  wakacje= new Date("June 26 2021");
+        var z= wakacje.getTime() - obecnie.getTime();
+        
+        var d=Math.floor(z/(1000*60*60*24));
+      
+   
+        document.getElementById("h").innerHTML="Do wakacji zostało: "+d+" dni";
+   
+    }
+setInterval('wakacje()',1000);
+    
+           
+
+                </script>
+          </footer>
+           <script src="los.js"> </script>
+      </body>
+</html>

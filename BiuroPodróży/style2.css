@@ -1,0 +1,407 @@
+
+
+body{
+    margin: 0 auto;
+    background-color: #F8F8F8;
+    height: 2000px;
+ 
+  
+}
+header{
+     background-color: #141E26;
+    height: 70px;
+     position: relative;
+    color: white;
+            -webkit-box-shadow: 6px 6px 15px -1px #000000; 
+box-shadow: 6px 6px 15px -1px #000000;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+h2{
+       margin: 0;
+    margin-left: 20%;
+   position: absolute;               
+   top: 50%;                         
+   transform: translate(0, -50%) ;
+       
+       
+       
+}
+nav{
+    
+   
+    margin: 0;
+    margin-left: 80%;
+   position: absolute;               
+   top: 50%;                         
+   transform: translate(0, -50%) ;
+    
+    
+}
+ul, ul li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+ul li {
+	display: inline;
+	white-space: nowrap;
+}
+
+a{
+    
+  text-decoration: none;
+    color: white;
+}
+
+main{
+ background-color: ;
+    width: 60%;
+     margin: 0 auto;
+       
+}
+#banner{
+  padding: 2%;
+    
+}
+.baner{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+        -webkit-box-shadow: 6px 6px 15px -1px #000000; 
+box-shadow: 6px 6px 15px -1px #000000;
+    border-radius: 5px;
+}
+
+#banner{
+  padding: 2%;
+    
+}
+#banerek{
+  
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+        -webkit-box-shadow: 6px 6px 15px -1px #000000; 
+box-shadow: 6px 6px 15px -1px #000000;
+    border-radius: 5px;
+}
+.ez{
+ 
+    margin: 12.5%;
+    display: inline;
+    
+    font-family: 'Lato', sans-serif;
+   font-size: 90%;
+}
+
+.napis{
+   margin: 0 auto;
+    text-align: center;
+    width: 79%;
+font-family: 'Lato', sans-serif;
+    font-size: 120%;
+}
+
+.karta{
+  border: 1px solid lightgray ;
+  width: 24%;  
+    padding: 2%;
+ display:  inline-block;
+   margin: 2.4% ;
+    -webkit-box-shadow: 6px 6px 15px -1px #000000; 
+box-shadow: 6px 6px 15px -1px #000000;
+    background-color: white;
+   font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    animation: slideIn 1.5s;
+        transition: transform 2s;
+}
+.opis{
+    font-family: 'Lato', sans-serif;
+}
+.zdj{
+    width:100%;
+    
+    
+}
+
+.karta:hover{
+     
+   transform: scale(1.2);
+    z-index: 0;
+       
+}
+footer{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-top: 20%;
+    bottom:0;
+    
+}
+
+
+
+
+.container {
+  display: flex;
+  height: 700px;
+align-items: center;
+  color: white;
+  animation: expand .8s ;
+  background-color:#141E26 ;
+  position: relative;
+  margin-top: 2%;
+    font-family: 'Ubuntu', sans-serif;
+box-shadow: 6px 6px 15px -1px #000000;
+  
+}
+
+.container_content {
+ width: 40%;
+}
+
+.container_content_inner {
+  width: 80%;
+  margin-left: 80px;
+    
+}
+
+.container_outer_img {
+  margin: 50px;
+  width: 50%;
+  overflow: hidden;
+     -webkit-box-shadow: 6px 6px 15px -1px #000000; 
+    border: 1px solid white ;
+     animation: slideIn 1.5s ;
+  
+    
+}   
+    
+.container_img {
+  width: 100%;
+  animation: slideIn 1s ;
+}
+
+.opis {
+  height: auto;
+  overflow: hidden;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+p{
+
+  
+  animation: slideUp .8s ;
+}
+
+
+
+.button {
+  background: transparent;
+  border: 1px solid white ;
+  border-radius: 50px;
+  padding: 8px 12px;
+  color: white;
+  font-size: 16px;
+  position: relative;
+  margin-top: 15px;
+  outline: none;
+  animation: slideUp .8s ;
+}
+
+.title {
+  overflow: hidden;
+  height: auto;
+}
+
+
+#galeria{
+    
+    margin-top: 30%;
+    height: 80%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tlo{
+   background: transparent  fixed no-repeat center center;
+
+    
+}
+
+.film{
+     width:100%;
+     
+    
+}
+
+
+#Oferta{
+    
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+     font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+#opis_promocji{
+    float: left;
+    width: 50%;
+    height: 500px;
+     border: 1px solid lightgray ;
+  
+    padding: 2%;
+
+   margin: 2.4% ;
+    -webkit-box-shadow: 6px 6px 15px -1px #000000; 
+box-shadow: 6px 6px 15px -1px #000000;
+    background-color: white;
+   font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    animation: slideIn 1.5s
+    
+}
+#prawo{
+    width: 100%;
+    
+}
+.promki{
+    
+    text-align: center;
+}
+
+#Promka{
+    height: auto;
+    width: 100%;
+    margin-top: 7%;
+    box-shadow: 6px 6px 15px -1px #000000;
+    border-radius: 5px;;
+    
+}
+#jeden{
+    width:100%; 
+}
+
+#dwa{
+     width:100%;
+}
+
+#trzy{
+     width:100%;
+    
+}
+
+#cztery{
+     width:100%;
+}
+#hh{
+    
+    text-align: center;
+     font-family: 'Ubuntu', sans-serif;
+      margin-top: 10%;
+}
+
+#gl{
+      color: black;
+     margin:  0 auto;
+    float: right;
+     font-family: 'Ubuntu', sans-serif;
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(500px) scale(.2);
+  }
+  100% {
+    transform: translateX(0px) scale(1);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(300px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes expand {
+  0% {
+    transform: translateX(1400px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@media only screen and (max-width:1305px)
+{
+    body{
+        
+    }
+    
+   .container
+    {
+         height: 1000px;
+    }
+}
+
+@media only screen and (max-width:890px)
+{
+    body{
+        
+    }
+    
+   .container
+    {
+         height: 1100px;
+    }
+}
+
+@media only screen and (max-width:690px)
+{
+    body{
+        
+    }
+    
+   .container
+    {
+         height: 1250px;
+    }
+}
+
+@media only screen and (max-width:605px)
+{
+    body{
+        height: auto;
+    }
+    
+   .container
+    {    width: 100%;
+         height: 1500px;
+       
+    }
+    
+     .karta
+    {    width: 100%;
+         
+       
+    }
+    #opis_promocji{
+        
+        height: 70%;
+        width: 100%;
+    }
+}
+

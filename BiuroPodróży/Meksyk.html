@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+      <link href="style2.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+        <link rel="icon" href="IMG/icono-ciudad-png-6.png">
+       <title>Meksyk </title>
+    </head>
+      <body> 
+           <header>
+               <h2>Big City Big Travel </h2>
+             <nav>
+               <ul> 
+                  <li><a href="index.html">Strona główna</a></li>
+                   <li><a href="Promocje%20.html"> Promocja </a> </li>
+                   <li><a href="Kontakt.html"> Kontakt </a> </li>
+                 </ul>
+              </nav>
+               </header>
+          <main>
+        
+           
+            
+              <div class= 'container'>
+<div class="container_content">
+<div class="container_content_inner">
+<div class="title">
+  <h1>Meksyk</h1>
+</div>
+<div class="opis">
+<p>
+ Stolica i dystrykt federalny Meksyku, położona na wyżynie leżącej w środkowej części kraju. Zajmuje powierzchnię 1479 km². Populacja miasta wynosi 8 720 916 mieszkańców, natomiast obszar metropolitarny zamieszkuje 19 231 829 osób (2005 r.). Szacuje się, że całe megalopolis liczy ok. 22–25 mln mieszkańców i jest uznawane za czwartą pod tym względem po Tokio, Seulu i Dżakarcie aglomerację miejską świata. Region miasta odznacza się także jednym z największych i najszybszych przyrostów liczby ludności.
+    
+   
+</p>
+     <p>Opis wycieczki: </p>
+    
+     <p>Opis wycieczki: Podczas wycieczki zobaczysz takie miejsca jak : </p>
+         <p>Bazylike Matki Bożej z Guadalupe </p>
+         <p>Murale Diego Rivery </p>
+         <p>Muzeum Fridy Kahlo </p>
+            <p>Teotihuacán</p>
+            <p>Park oraz zamek Chapultepec </p>
+     <p>Cenna za osobe: 1800 zł  </p>
+    
+</div>
+
+<button class='button' onclick="scrollWin()"> Galeria </button>
+
+</div>
+</div>
+ <div class="container_outer_img">
+ <div class="img-inner">
+ <img src="IMG/meksyk-ma%C5%82y.jpg"   class="container_img" alt="OBraz"/>
+       </div>
+     </div>
+  </div>
+<div class="overlay" ></div>
+            
+    
+            </main>
+            <script src="scroll.js"></script>
+              <div id="tlo">
+                
+    <div id="galeria"> 
+       
+              <h1><a href="Meksyk.html" id="Oferta">Oferta</a> </h1>
+      <div class="karta"> 
+                <div >  
+                   <video class="film" controls>
+                       
+                             <source src="Viedo/Meksyk.mp4" type="audio/mpeg" > 
+                       </video>   
+                </div>
+          
+                <p class="opis"> 
+                
+                </p>
+             </div>      
+              
+              
+                <div class="karta"> 
+                <div >  
+                  <img src="IMGO/Meksyk/meksyk1.1.jpg" class="zdj" alt="OBraz" >  
+                </div>
+             
+                <p class="opis"> 
+               
+                </p>
+             </div>
+              
+              
+          <div class="karta"> 
+                <div >  
+                 <img src="IMGO/Meksyk/meksyk4.jpg" class="zdj" alt="OBraz" >  
+                </div>
+       
+                <p class="opis"> 
+             
+                </p>
+             </div>
+          <div class="karta"> 
+                <div >  
+                  <img src="IMGO/Meksyk/meksyk2.jpg" class="zdj" alt="OBraz" >   
+                </div>
+      
+                <p class="opis"> 
+                  
+                </p>
+             </div>
+              
+            <div class="karta"> 
+                <div >  
+                  <img src="IMGO/Meksyk/bazylika.jpg" class="zdj" alt="OBraz" >   
+                </div>
+      
+                <p class="opis"> 
+                  
+                </p>
+             </div>
+              
+        
+            <div class="karta"> 
+                <div >  
+                  <img src="IMGO/Meksyk/Teotihuac%C3%A1n.jpg" class="zdj" alt="OBraz">   
+                </div>
+      
+                <p class="opis"> 
+                  
+                </p>
+             </div>
+              
+        
+        
+        
+        
+        
+        
+              </div>          
+              
+              
+              
+              </div>
+              
+              
+              
+              
+              
+    <footer>
+          <hr > 
+         <p> <b>  Copyright 2021 Filip Dziedzic 3f ZSE  </b> </p>
+        <div id="data"> </div>
+         <div id="h"> </div>
+        <script > 
+        
+                        function data()
+                        {
+                            var a = new Date();
+                            var b = a.toLocaleString();
+                            document.getElementById("data").innerHTML = b;
+                            }
+                        data();
+                        setInterval("data()", 1000);
+
+         function wakacje(){
+        var obecnie=new Date();
+        var  wakacje= new Date("June 26 2021");
+        var z= wakacje.getTime() - obecnie.getTime();
+        
+        var d=Math.floor(z/(1000*60*60*24));
+      
+   
+        document.getElementById("h").innerHTML="Do wakacji zostało: "+d+" dni";
+   
+    }
+setInterval('wakacje()',1000);
+    
+        
+                </script>
+          </footer>
+      </body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+      <link href="style3.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+        <link rel="icon" href="IMG/icono-ciudad-png-6.png">
+      <title> Kontakt</title>
+    </head>
+      <body> 
+           <header>
+               <h2>Big City Big Travel </h2>
+             <nav>
+               <ul> 
+                  <li><a href="index.html">Strona główna</a></li>
+                   <li><a href="Promocje%20.html"> Promocja </a> </li>
+                
+                 </ul>
+              </nav>
+               </header>
+          <main>
+        
+           
+            
+              <div class= 'container'>
+               
+                  <div id="formluarz">
+                      <h1>Formularz Zgłoszeniowy </h1>
+                  <form>
+                      <table>
+            
+        <tr>
+        
+            
+            <td><p>IMIE: </p></td>    
+        
+            <td>
+       
+                <input type="text" name="Imie" id="name" placeholder="imie" > 
+        
+            </td>    
+        
+                          </tr>
+            
+        <tr>
+        
+            <td><p>NAZWISKO: </p></td>    
+       
+            <td>
+        
+                <input type="text" name="Nazwisko" id="nazw" placeholder="nazwisko" >
+        
+            </td>
+       
+        </tr>
+         
+        <tr>
+       
+        <td><p>EMAIL: </p></td>    
+        
+            <td>
+        
+                <input type="text" name="Email" id="email" placeholder="email" >
+       
+                
+        
+            </td>    
+        </tr>
+            
+        <tr>
+        
+        <td><p>NR. TEL: </p></td>    
+       
+        <td>
+        <input type="number" name="tel" id="tel" placeholder="numer" >
+        </td>    
+       
+        </tr>
+        
+        <tr>
+        
+        <td><p>DATA: </p></td>    
+        <td>
+        <input type="date" name="data" id="d"  >
+        </td>    
+        
+        </tr>
+                          
+      <tr>
+                   <td>
+          
+              <input type="submit" value="Wyślij"  onclick="czek();" class="button" >
+          
+          </td>    
+        <td>
+        <input type="reset"  value="Wyczyść" class="button">            
+        </td>
+             
+                          </tr>  
+                          
+                      
+                           <script> 
+          
+          function czek(){
+                    var imie = document.getElementById("name").value  
+                    var naz= document.getElementById("nazw").value
+                    if(!imie ) 
+                          alert("Błąd danych w polu Imie")
+                    if(!naz)
+                          alert("Błąd danych w polu nazwisko ")
+              var Gmail = /^[-\w\.]+@([-\w]+\.)+[a-z]+$/i;
+                    var email = document.getElementById("email").value;
+                    var spr = email.search(Gmail);
+
+                    if (spr == -1 || !email )
+                    {
+                        alert("Błąd danych  w polu email")
+                     }
+
+                     var Gtel = /^\d{9}$/;
+                    var tel = document.getElementById("tel").value;
+                        var spr2 = tel.search(Gtel);
+
+                    if( spr2 == -1 || !tel )
+                        {
+                            alert("Błąd danych w polu telefon ");
+                        }
+                            
+              
+                        var data = document.getElementById("d").value;
+    
+                            if(!data)
+                                alert("Błąd danych w polu Data ")
+                                     
+                    } 
+                            
+                  
+                
+          
+          </script>
+
+    </table>
+    </form>
+             
+      
+        
+                      
+                     
+                  
+                  </div>
+               
+  </div>
+
+            
+    
+            </main>
+         
+          
+         
+              
+              
+              
+              
+              
+    <footer>
+          <hr > 
+         <p> <b>  Copyright 2021 Filip Dziedzic 3f ZSE  </b> </p>
+        <div id="data"> </div>
+         <div id="h"> </div>
+        <script > 
+        
+                        function data()
+                        {
+                            var a = new Date();
+                            var b = a.toLocaleString();
+                            document.getElementById("data").innerHTML = b;
+                            }
+                        data();
+                        setInterval("data()", 1000);
+
+         function wakacje(){
+        var obecnie=new Date();
+        var  wakacje= new Date("June 26 2021");
+        var z= wakacje.getTime() - obecnie.getTime();
+        
+        var d=Math.floor(z/(1000*60*60*24));
+      
+   
+        document.getElementById("h").innerHTML="Do wakacji zostało: "+d+" dni";
+   
+    }
+setInterval('wakacje()',1000);
+    
+        
+                </script>
+          </footer>
+      </body>
+</html>

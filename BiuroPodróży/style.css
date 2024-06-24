@@ -1,0 +1,179 @@
+
+
+body{
+    margin: 0 auto;
+    background-color: #F8F8F8;
+    position: absolute;
+  
+}
+header{
+     background-color: #141E26;
+    height: 70px;
+     position: relative;
+    color: white;
+            -webkit-box-shadow: 6px 6px 15px -1px #000000; 
+box-shadow: 6px 6px 15px -1px #000000;
+    font-family: 'Ubuntu', sans-serif
+   
+}
+h2{
+       margin: 0;
+    margin-left: 20%;
+   position: absolute;               
+   top: 50%;                         
+   transform: translate(0, -50%) ;
+       
+       
+       
+}
+nav{
+    
+   
+    margin: 0;
+    margin-left: 80%;
+   position: absolute;               
+   top: 50%;                         
+   transform: translate(0, -50%) ;
+    
+    
+}
+ul, ul li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+ul li {
+	display: inline;
+	white-space: nowrap;
+}
+
+
+a{
+    
+  text-decoration: none;
+    color: white;
+}
+
+main{
+ background-color: ;
+    width: 60%;
+     margin: 0 auto;
+       
+}
+#banner{
+  padding: 2%;
+    
+}
+#banerek{
+  
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+        -webkit-box-shadow: 6px 6px 15px -1px #000000; 
+box-shadow: 6px 6px 15px -1px #000000;
+    border-radius: 5px;
+}
+
+.ez{
+ 
+    margin: 12.5%;
+    display: inline;
+    
+    font-family: 'Lato', sans-serif;
+   font-size: 90%;
+}
+
+.napis{
+   margin: 0 auto;
+    text-align: center;
+    width: 79%;
+font-family: 'Lato', sans-serif;
+    font-size: 120%;
+}
+
+.karta{
+  border: 1px solid lightgray ;
+  width: 24%;  
+    padding: 2%;
+ display:  inline-block;
+   margin: 2.4% ;
+    -webkit-box-shadow: 6px 6px 15px -1px #000000; 
+box-shadow: 6px 6px 15px -1px #000000;
+    background-color: white;
+   font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+}
+.opis{
+    font-family: 'Lato', sans-serif;
+}
+.zdj{
+    width:100%;
+    
+}
+
+footer{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-top: 20%;
+   
+}
+
+
+#button1{
+   
+
+    width: 3%;
+   display: inline;
+  text-align: center;
+  float: left ;
+    
+    
+}
+
+#button2{
+   
+
+    width: 3%;
+   display: inline;
+  text-align: center;
+  float: left ;
+    
+    
+}
+
+#kropki{
+       
+    margin-left: 49%;
+    padding-bottom: 2%;
+   
+}
+
+#button1:hover{
+    transform: scale(2);
+   
+    
+}
+#button2:hover{
+    transform: scale(2);
+   
+    
+}
+
+
+@media only screen and (max-width:605px)
+{
+    
+   .karta
+    {    width: 100%;
+         
+       
+    }
+    .ez{
+       visibility: hidden;
+    }
+}
+

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+      <link href="style2.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+        <link rel="icon" href="IMG/icono-ciudad-png-6.png">
+        <title>Seul </title>
+    </head>
+      <body> 
+           <header>
+               <h2>Big City Big Travel </h2>
+             <nav>
+               <ul> 
+                  <li><a href="index.html">Strona główna</a></li>
+         
+                   <li><a href="Promocje%20.html"> Promocja </a>  </li>
+                   <li><a href="Kontakt.html"> Kontakt </a> </li>
+                 </ul>
+              </nav>
+               </header>
+          <main>
+        
+           
+            
+              <div class= 'container'>
+<div class="container_content">
+<div class="container_content_inner">
+<div class="title">
+  <h1>Seul</h1>
+</div>
+<div class="opis">
+<p>
+
+Stolica i największe miasto Korei Południowej położone w centralno-zachodniej części Półwyspu Koreańskiego, niedaleko na południe od strefy zdemilitaryzowanej (DMZ), wraz z Inczonem i innymi satelitami tworzące jedną z największych (połowa z 50 mln mieszkańców kraju) i najbogatszych (prawie bilion dolarów produktu) metropolii na świecie.
+W 2018 Seul odwiedziło 10,13 mln turystów z całego świata – był jedenastym najczęściej odwiedzanym miastem na świecie
+     
+   
+    
+    </p>
+     <p>Opis wycieczki: </p>
+    <p>-Zwiedzanie Pałacu Gyeongbokgung</p>
+    <p>-Wycieczka do Wioski Bukchon </p>
+    <p>-Podróż po Dzielnicy Myeongdong </p>
+    <p>-Wycieczka pod Świątynie Jongmyo </p>
+    <p>-Wycieczka na N Seoul Tower </p>
+    <p>Cena za osobe : 2700 zł  </p>
+</div>
+
+<button class='button' onclick="scrollWin()"> Galeria </button>
+
+</div>
+</div>
+ <div class="container_outer_img">
+ <div class="img-inner">
+ <img src="IMG/Seul%20.jpg"   class="container_img" alt="Obraz"/>
+       </div>
+     </div>
+  </div>
+<div class="overlay" ></div>
+            
+    
+            </main>
+            <script src="scroll.js"></script>
+              <div id="tlo">
+                
+    <div id="galeria"> 
+       
+              <h1><a href="seul.html" id="Oferta">Oferta</a> </h1>
+      <div class="karta"> 
+                <div >  
+                   <video class="film" controls>
+                       
+                             <source src="Viedo/Seoul%20-%2021116.mp4" type="audio/mpeg" > 
+                       </video>   
+                </div>
+             
+                <p class="opis"> 
+               
+                </p>
+             </div>      
+              
+              
+                <div class="karta"> 
+                <div >  
+                  <img src="IMGO/Seul/seul1.jpeg" class="zdj" alt="Obraz">  
+                </div>
+            
+                <p class="opis"> 
+                
+                </p>
+             </div>
+              
+              
+          <div class="karta"> 
+                <div >  
+                 <img src="IMGO/Seul/seul2.jpg" class="zdj" alt="Obraz">  
+                </div>
+         
+                <p class="opis"> 
+                 
+                </p>
+             </div>
+          <div class="karta"> 
+                <div >  
+                  <img src="IMGO/Seul/seul3.jpg" class="zdj" alt="Obraz">   
+                </div>
+        
+                <p class="opis"> 
+            
+                </p>
+             </div>
+              
+           <div class="karta"> 
+                <div >  
+                  <img src="IMGO/Seul/Myeongdong.jpg" class="zdj" alt="Obraz">   
+                </div>
+        
+                <p class="opis"> 
+            
+                </p>
+             </div>
+           <div class="karta"> 
+                <div >  
+                  <img src="IMGO/Seul/istockphoto-929665618-170667a.jpg" class="zdj" alt="Obraz">   
+                </div>
+        
+                <p class="opis"> 
+            
+                </p>
+             </div>
+           <div class="karta"> 
+                <div >  
+                  <img src="IMGO/Seul/Gyeongbokgung.jpg" class="zdj" alt="Obraz" >   
+                </div>
+        
+                <p class="opis"> 
+            
+                </p>
+             </div>
+        
+              </div>          
+              
+              
+              
+              </div>
+              
+              
+              
+              
+              
+    <footer>
+          <hr > 
+         <p> <b>  Copyright 2021 Filip Dziedzic 3f ZSE  </b> </p>
+        <div id="data"> </div>
+         <div id="h"> </div>
+        <script > 
+        
+                        function data()
+                        {
+                            var a = new Date();
+                            var b = a.toLocaleString();
+                            document.getElementById("data").innerHTML = b;
+                            }
+                        data();
+                        setInterval("data()", 1000);
+
+        
+         function wakacje(){
+        var obecnie=new Date();
+        var  wakacje= new Date("June 26 2021");
+        var z= wakacje.getTime() - obecnie.getTime();
+        
+        var d=Math.floor(z/(1000*60*60*24));
+      
+   
+        document.getElementById("h").innerHTML="Do wakacji zostało: "+d+" dni";
+   
+    }
+setInterval('wakacje()',1000);
+    
+                </script>
+          </footer>
+      </body>
+</html>

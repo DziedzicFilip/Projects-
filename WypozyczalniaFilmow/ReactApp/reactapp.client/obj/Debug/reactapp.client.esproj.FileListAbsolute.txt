@@ -1,0 +1,3 @@
+C:\Users\akornatka\Desktop\Zajecia 2024\TIU\Projekt\ReactApp\reactapp.client\obj\Debug\reactapp.client.esproj.CoreCompileInputs.cache
+C:\Users\Praktykant1\Desktop\Zajecia 2024\TIU\Projekt\ReactApp\reactapp.client\obj\Debug\reactapp.client.esproj.CoreCompileInputs.cache
+D:\Studia\WSB\TIU\Projekt\ReactApp\reactapp.client\obj\Debug\reactapp.client.esproj.CoreCompileInputs.cache

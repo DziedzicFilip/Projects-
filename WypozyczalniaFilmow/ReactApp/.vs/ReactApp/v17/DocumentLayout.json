@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Studia\\WSB\\TIU\\Projekt\\ReactApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8335397B-C70C-47D1-90E9-F8C368C91E44}|reactapp.client\\reactapp.client.esproj|d:\\studia\\wsb\\tiu\\projekt\\reactapp\\reactapp.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8335397B-C70C-47D1-90E9-F8C368C91E44}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8335397B-C70C-47D1-90E9-F8C368C91E44}|reactapp.client\\reactapp.client.esproj|d:\\studia\\wsb\\tiu\\projekt\\reactapp\\reactapp.client\\src\\faq\\faq.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8335397B-C70C-47D1-90E9-F8C368C91E44}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\faq\\faq.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8335397B-C70C-47D1-90E9-F8C368C91E44}|reactapp.client\\reactapp.client.esproj|d:\\studia\\wsb\\tiu\\projekt\\reactapp\\reactapp.client\\src\\nav\\nav.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8335397B-C70C-47D1-90E9-F8C368C91E44}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\nav\\nav.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8335397B-C70C-47D1-90E9-F8C368C91E44}|reactapp.client\\reactapp.client.esproj|d:\\studia\\wsb\\tiu\\projekt\\reactapp\\reactapp.client\\src\\filmviewgreen\\filmreview\\filmreview.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8335397B-C70C-47D1-90E9-F8C368C91E44}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\filmviewgreen\\filmreview\\filmreview.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8335397B-C70C-47D1-90E9-F8C368C91E44}|reactapp.client\\reactapp.client.esproj|d:\\studia\\wsb\\tiu\\projekt\\reactapp\\reactapp.client\\src\\wypozyczenie\\wypozyczenie.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8335397B-C70C-47D1-90E9-F8C368C91E44}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\wypozyczenie\\wypozyczenie.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8335397B-C70C-47D1-90E9-F8C368C91E44}|reactapp.client\\reactapp.client.esproj|d:\\studia\\wsb\\tiu\\projekt\\reactapp\\reactapp.client\\src\\filmview\\filmreview\\filmreview.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8335397B-C70C-47D1-90E9-F8C368C91E44}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\filmview\\filmreview\\filmreview.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8335397B-C70C-47D1-90E9-F8C368C91E44}|reactapp.client\\reactapp.client.esproj|d:\\studia\\wsb\\tiu\\projekt\\reactapp\\reactapp.client\\src\\konto\\contentblock.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8335397B-C70C-47D1-90E9-F8C368C91E44}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\konto\\contentblock.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8335397B-C70C-47D1-90E9-F8C368C91E44}|reactapp.client\\reactapp.client.esproj|d:\\studia\\wsb\\tiu\\projekt\\reactapp\\reactapp.client\\src\\stronaglowna\\box\\box.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8335397B-C70C-47D1-90E9-F8C368C91E44}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\stronaglowna\\box\\box.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8335397B-C70C-47D1-90E9-F8C368C91E44}|reactapp.client\\reactapp.client.esproj|d:\\studia\\wsb\\tiu\\projekt\\reactapp\\reactapp.client\\src\\borrowedmoviesprovider.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{8335397B-C70C-47D1-90E9-F8C368C91E44}|reactapp.client\\reactapp.client.esproj|solutionrelative:reactapp.client\\src\\borrowedmoviesprovider.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Box.css",
+              "DocumentMoniker": "D:\\Studia\\WSB\\TIU\\Projekt\\ReactApp\\reactapp.client\\src\\StronaGlowna\\Box\\Box.css",
+              "RelativeDocumentMoniker": "reactapp.client\\src\\StronaGlowna\\Box\\Box.css",
+              "ToolTip": "D:\\Studia\\WSB\\TIU\\Projekt\\ReactApp\\reactapp.client\\src\\StronaGlowna\\Box\\Box.css",
+              "RelativeToolTip": "reactapp.client\\src\\StronaGlowna\\Box\\Box.css",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-14T16:58:25.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContentBlock.jsx",
+              "DocumentMoniker": "D:\\Studia\\WSB\\TIU\\Projekt\\ReactApp\\reactapp.client\\src\\Konto\\ContentBlock.jsx",
+              "RelativeDocumentMoniker": "reactapp.client\\src\\Konto\\ContentBlock.jsx",
+              "ToolTip": "D:\\Studia\\WSB\\TIU\\Projekt\\ReactApp\\reactapp.client\\src\\Konto\\ContentBlock.jsx",
+              "RelativeToolTip": "reactapp.client\\src\\Konto\\ContentBlock.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-14T16:57:01.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FilmReview.jsx",
+              "DocumentMoniker": "D:\\Studia\\WSB\\TIU\\Projekt\\ReactApp\\reactapp.client\\src\\FilmView\\FilmReview\\FilmReview.jsx",
+              "RelativeDocumentMoniker": "reactapp.client\\src\\FilmView\\FilmReview\\FilmReview.jsx",
+              "ToolTip": "D:\\Studia\\WSB\\TIU\\Projekt\\ReactApp\\reactapp.client\\src\\FilmView\\FilmReview\\FilmReview.jsx",
+              "RelativeToolTip": "reactapp.client\\src\\FilmView\\FilmReview\\FilmReview.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-14T16:43:18.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Wypozyczenie.jsx",
+              "DocumentMoniker": "D:\\Studia\\WSB\\TIU\\Projekt\\ReactApp\\reactapp.client\\src\\Wypozyczenie\\Wypozyczenie.jsx",
+              "RelativeDocumentMoniker": "reactapp.client\\src\\Wypozyczenie\\Wypozyczenie.jsx",
+              "ToolTip": "D:\\Studia\\WSB\\TIU\\Projekt\\ReactApp\\reactapp.client\\src\\Wypozyczenie\\Wypozyczenie.jsx",
+              "RelativeToolTip": "reactapp.client\\src\\Wypozyczenie\\Wypozyczenie.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-14T16:12:02.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FilmReview.jsx",
+              "DocumentMoniker": "D:\\Studia\\WSB\\TIU\\Projekt\\ReactApp\\reactapp.client\\src\\FilmViewGreen\\FilmReview\\FilmReview.jsx",
+              "RelativeDocumentMoniker": "reactapp.client\\src\\FilmViewGreen\\FilmReview\\FilmReview.jsx",
+              "ToolTip": "D:\\Studia\\WSB\\TIU\\Projekt\\ReactApp\\reactapp.client\\src\\FilmViewGreen\\FilmReview\\FilmReview.jsx",
+              "RelativeToolTip": "reactapp.client\\src\\FilmViewGreen\\FilmReview\\FilmReview.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-14T16:42:44.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Nav.jsx",
+              "DocumentMoniker": "D:\\Studia\\WSB\\TIU\\Projekt\\ReactApp\\reactapp.client\\src\\Nav\\Nav.jsx",
+              "RelativeDocumentMoniker": "reactapp.client\\src\\Nav\\Nav.jsx",
+              "ToolTip": "D:\\Studia\\WSB\\TIU\\Projekt\\ReactApp\\reactapp.client\\src\\Nav\\Nav.jsx",
+              "RelativeToolTip": "reactapp.client\\src\\Nav\\Nav.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-14T16:37:30.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FAQ.jsx",
+              "DocumentMoniker": "D:\\Studia\\WSB\\TIU\\Projekt\\ReactApp\\reactapp.client\\src\\FAQ\\FAQ.jsx",
+              "RelativeDocumentMoniker": "reactapp.client\\src\\FAQ\\FAQ.jsx",
+              "ToolTip": "D:\\Studia\\WSB\\TIU\\Projekt\\ReactApp\\reactapp.client\\src\\FAQ\\FAQ.jsx",
+              "RelativeToolTip": "reactapp.client\\src\\FAQ\\FAQ.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-14T16:33:55.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.jsx",
+              "DocumentMoniker": "D:\\Studia\\WSB\\TIU\\Projekt\\ReactApp\\reactapp.client\\src\\main.jsx",
+              "RelativeDocumentMoniker": "reactapp.client\\src\\main.jsx",
+              "ToolTip": "D:\\Studia\\WSB\\TIU\\Projekt\\ReactApp\\reactapp.client\\src\\main.jsx",
+              "RelativeToolTip": "reactapp.client\\src\\main.jsx",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-14T16:24:00.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BorrowedMoviesProvider.jsx",
+              "DocumentMoniker": "D:\\Studia\\WSB\\TIU\\Projekt\\ReactApp\\reactapp.client\\src\\BorrowedMoviesProvider.jsx",
+              "RelativeDocumentMoniker": "reactapp.client\\src\\BorrowedMoviesProvider.jsx",
+              "ToolTip": "D:\\Studia\\WSB\\TIU\\Projekt\\ReactApp\\reactapp.client\\src\\BorrowedMoviesProvider.jsx",
+              "RelativeToolTip": "reactapp.client\\src\\BorrowedMoviesProvider.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-06-14T16:18:59.7Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

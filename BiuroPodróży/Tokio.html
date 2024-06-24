@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+      <link href="style2.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+        <link rel="icon" href="IMG/icono-ciudad-png-6.png">
+        <title>Tokio</title>
+    </head>
+      <body> 
+           <header>
+               <h2>Big City Big Travel </h2>
+             <nav>
+               <ul> 
+                  <li><a href="index.html">Strona główna</a></li>
+             
+                   <li> <a href="Promocje%20.html"> Promocja </a>  </li>
+                   <li><a href="Kontakt.html"> Kontakt </a> </li>
+                 </ul>
+              </nav>
+               </header>
+          <main>
+           
+           
+            
+              <div class= 'container'>
+<div class="container_content">
+<div class="container_content_inner">
+<div class="title">
+  <h1>Tokio</h1>
+</div>
+<div class="opis">
+<p>
+ Stolica i największe miasto Japonii, położone na południowo-wschodnim wybrzeżu Honsiu i zarazem największy obszar metropolitalny na świecie na poziomie 38 305 000 mieszkańców . Nazwa Tōkyō  oznacza „Wschodnią Stolicę”[3]. Do 1868 roku miasto nazywało się Edo.
+Tokio formalnie nie jest miastem, ale prefekturą metropolitalną od 1 lipca 1943.  Było również organizatorem letnich igrzysk olimpijskich w 1964 i będzie ponownie w 2021.
+    
+    
+</p>
+     <p>Opis wycieczki: </p>
+     <p> - Odwiedzenie dzielnicy Asakusa </p>
+     <p> -  Zwiedzanie  Senso-ji - najstarsza świątynia  buddyjska w całym Tokio </p>
+     <p>  -  Wycieczka na Taras widokowy w Information Center </p>
+      <p> - Przechadzka po Shin-Nakamise   </p>
+     <p> Cenna za osobe : 2000 zł  </p>
+    
+</div>
+
+<button class='button' onclick="scrollWin()"> Galeria </button>
+
+
+<script src="scroll.js"></script>
+</div>
+</div>
+ <div class="container_outer_img">
+ <div class="img-inner">
+ <img src="IMG/tokio.jpg"   class="container_img" alt="Obraz"/>
+       </div>
+     </div>
+  </div>
+<div class="overlay"></div>
+    
+     
+            
+              </main> 
+          
+          
+          
+          
+          
+          
+              <div id="tlo">
+                
+    <div id="galeria"> 
+       
+              <h1><a href="Tokio.html" id="Oferta">Oferta</a> </h1>
+      <div class="karta"> 
+                <div >  
+                   <video class="film" controls>
+                        
+                             <source src="Viedo/Japan%20-%2040602.mp4" type="audio/mpeg"  > 
+                       </video>   
+                </div>
+           
+                <p class="opis"> 
+     
+                </p>
+             </div>      
+              
+               <div class="karta"> 
+                <div >  
+                  <img src="IMGO/Asakusa.jpg" class="zdj" alt="Obraz" >  
+                </div>
+          
+                <p class="opis"> 
+          
+                    
+                </p>
+             </div>
+                
+        <div class="karta"> 
+                <div >  
+                  <img src="IMGO/TokioB.png" class="zdj" alt="Obraz">   
+                </div>
+           
+                <p class="opis"> 
+          
+                </p>
+             </div>
+              
+              
+          <div class="karta"> 
+                <div >  
+                  <img src="IMG/tokio_ma%C5%82e3.jpg" class="zdj" alt="Obraz" >  
+                </div>
+           
+                <p class="opis"> 
+               
+                </p>
+             </div>
+          <div class="karta"> 
+                <div >  
+                  <img src="IMG/Tokio_slogan.jpg" class="zdj" alt="Obraz" >  
+                </div>
+           
+                <p class="opis"> 
+                
+                </p>
+             </div>
+        
+          
+        
+        
+           <div class="karta"> 
+                <div >  
+                  <img src="IMGO/Taras_widokowy.jpg" class="zdj" alt="Obraz">  
+                </div>
+               
+                <p class="opis"> 
+          
+                 
+                </p>
+             </div>
+        
+        
+           <div class="karta"> 
+                <div >  
+                  <img src="IMGO/shopping.jpg" class="zdj" alt="Obraz" >  
+                </div>
+             
+                <p class="opis"> 
+       
+                 
+                </p>
+             </div>
+              
+              </div>          
+              
+              
+              
+              </div>
+              
+              
+              
+              
+              
+    <footer>
+          <hr > 
+         <p> <b>  Copyright 2021 Filip Dziedzic 3f ZSE  </b> </p>
+        <div id="data"> </div>
+         <div id="h"> </div>
+        <script > 
+        
+                        function data()
+                        {
+                            var a = new Date();
+                            var b = a.toLocaleString();
+                            document.getElementById("data").innerHTML = b;
+                            }
+                        data();
+                        setInterval("data()", 1000);
+
+         function wakacje(){
+        var obecnie=new Date();
+        var  wakacje= new Date("June 26 2021");
+        var z= wakacje.getTime() - obecnie.getTime();
+        
+        var d=Math.floor(z/(1000*60*60*24));
+      
+   
+        document.getElementById("h").innerHTML="Do wakacji zostało: "+d+" dni";
+   
+    }
+setInterval('wakacje()',1000);
+    
+        
+                </script>
+          </footer>
+      </body>
+</html>

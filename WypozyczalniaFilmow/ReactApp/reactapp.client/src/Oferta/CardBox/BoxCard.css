@@ -1,0 +1,16 @@
+.custom-button {
+    background-color: #A68F72;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 10px;
+}
+@media only screen and (max-width: 600px) {
+    .pb-4{
+       padding-top:20px;
+    }
+}
+.custom-button:hover {
+    background-color: #D9BC9A;
+ 
+}

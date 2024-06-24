@@ -1,0 +1,42 @@
+.box-container {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.box-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 100px;
+    text-align: center;
+    width: 80%;
+    min-height: 350px;
+}
+
+@keyframes changeBackground {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0; 
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.box-container.animating {
+    animation: changeBackground 0.5s ease;
+}
+
+
+@media only screen and (max-width: 600px)
+{
+    h2{
+        display:none;
+    }
+}

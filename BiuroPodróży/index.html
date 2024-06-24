@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+      <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+        <link rel="icon" href="IMG/icono-ciudad-png-6.png">
+       <title>BigCityBigTravel </title>
+    </head>
+      <body> 
+           <header>
+             
+               <h2>Big City Big Travel </h2>
+             <nav>
+               <ul> 
+                
+                 
+                   <li> <a href="Promocje%20.html">Promocja </a> </li>
+                   <li>  <a href="Kontakt.html"> Kontakt </a> </li>
+                 </ul>
+              </nav>
+               </header>
+          <main>
+          
+           
+              <div id="banner"> <img src="IMGO/Nowy%20jork.png" id="banerek" alt="Obraz"> <hr>  
+                <div id="kropki">  <img src="IMG/full-stop-filled.png" id="button1" alt="Obraz" >    <img src="IMG/full-stop-filled.png" id="button2"  alt="Obraz" >  
+                    <script src="slider.js"> </script>
+                  </div>
+              </div>
+            
+            <div class="ez"> <b> Rejs w Świat </b>  </div> 
+               <div class="ez"> <b> Pełen Relaks</b>  </div> 
+               <div class="ez"> <b> Podróżować to żyć </b> </div> 
+               <hr> 
+            <div class="napis"> <h3> Rekomendowane </h3>  </div>
+             
+              <hr>
+            
+              <div class="karta"> 
+                <div >  
+                  <a href="seul.html">  <img src="IMG/Seul%20.jpg" class="zdj" alt="Obraz" >  </a>
+                </div>
+                <h3> Seul  </h3>
+                <p class="opis"> 
+                  <i> <b> Opis  Wycieczki: </b> </i> 
+                    <b>  Seul to miasto leżace w ... </b>
+                </p>
+             </div>
+              
+              
+             <div class="karta"> 
+                <div >  
+                   <a href="Tokio.html"><img src="IMGO/ma%C5%82e%20tokio.png" class="zdj" alt="Obraz">  </a> 
+                </div>
+                <h3> Tokio   </h3>
+                <p class="opis"> 
+                   <i> <b> Opis  Wycieczki: </b> </i> 
+                    <b> Tokio to stolica technologi oraz ....  </b>
+                </p>
+             </div>
+              
+             <div class="karta"> 
+                <div >  
+                 <a href="Nowy_York.html">  <img src="IMGO/Ma%C5%82y%20nowy%20jork.png" class="zdj" alt="Obraz"> </a> 
+                </div>
+                <h3> Nowy York    </h3>
+                <p class="opis"> 
+                   <i> <b> Opis  Wycieczki: </b> </i>   
+                    <b> Nowy Jork to miasto z największą po Warszawie ....  </b>
+                </p>
+             </div>
+              
+                <div class="karta"> 
+                <div >  
+                   <a href="Szanghaj.html"> <img src="IMGO/ma%C5%82y%20sznaghaj%20.png" class="zdj" alt="Obraz">  </a>
+                </div>
+                <h3> Szanghaj    </h3>
+                <p class="opis"> 
+                   <i> <b> Opis  Wycieczki: </b> </i>   
+                    <b> Szanghaj szczyci się najszybszym na świecie....</b>
+                </p>
+             </div>
+              
+                <div class="karta"> 
+                <div >  
+                 <a href="Meksyk.html">  <img src="IMGO/Meksyk%20ma%C5%82y%20.png" class="zdj" alt="Obraz">  </a> 
+                </div>
+                <h3> Meksyk   </h3>
+                <p class="opis"> 
+                   <i> <b> Opis  Wycieczki: </b> </i>   
+                    <b> Mexico City jest najstarszym miastem w....</b>
+                </p>
+             </div>
+              
+              
+            <div class="napis"></div>
+            
+              </main>
+    <footer>
+          <hr > 
+         <p> <b>  Copyright 2021 Filip Dziedzic 3f ZSE  </b> </p>
+        <div id="data"> </div>
+         <div id="h"> </div>
+        <script > 
+        
+                        function data()
+                        {
+                            var a = new Date();
+                            var b = a.toLocaleString();
+                            document.getElementById("data").innerHTML = b;
+                            }
+                        data();
+                        setInterval("data()", 1000);
+
+        
+         function wakacje(){
+        var obecnie=new Date();
+        var  wakacje= new Date("June 26 2021");
+        var z= wakacje.getTime() - obecnie.getTime();
+        
+        var d=Math.floor(z/(1000*60*60*24));
+      
+   
+        document.getElementById("h").innerHTML="Do wakacji zostało: "+d+" dni";
+   
+    }
+setInterval('wakacje()',1000);
+    
+                </script>
+          </footer>
+           
+      </body>
+</html>

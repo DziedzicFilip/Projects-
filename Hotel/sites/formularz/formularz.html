@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+    <link rel="icon" href="D:/Studia/UKEN/HTML/Projekt/Img/favicon-32x32.png" >
+    <title>Formularz</title>
+</head>
+<body>
+  <nav><ul> <li><a href="../hotel/index.html">Strona Główna</a> </li>
+    <li><a href="../galeria/galeria.html">Galeria</a>
+       <li> 
+           <li> <a href="../Ofery_Specjalne/Oferty_Specjalne.html">Oferty Specjalne</a> </li> 
+   <li> <a href="../Restauracja/Restauracja.html">Restauracja</a></li> 
+   <li> <a href="../Wydarzenia/Wydarzenia.html">Wydarzenia</a></li> </ul></nav>
+         <main>
+            <h1>WARDEL <br> HOSPITALITY</h1>
+           
+               
+                <div class="in-main">
+
+                    <h2>Formularz rezerwacji hotelu</h2>
+                    <form>
+                      <table>
+                          <tr>
+                              <td><label for="firstName">Imię:</label></td>
+                              <td><input type="text" id="firstName" name="firstName" required></td>
+                          </tr>
+                          <tr>
+                              <td><label for="lastName">Nazwisko:</label></td>
+                              <td><input type="text" id="lastName" name="lastName" required></td>
+                          </tr>
+                          <tr>
+                              <td><label for="checkInDate">Data przyjazdu:</label></td>
+                              <td><input type="date" id="checkInDate" name="checkInDate" required></td>
+                          </tr>
+                          <tr>
+                              <td><label for="checkOutDate">Data wyjazdu:</label></td>
+                              <td><input type="date" id="checkOutDate" name="checkOutDate" required></td>
+                          </tr>
+                          <tr>
+                              <td><label for="roomType">Typ pokoju:</label></td>
+                              <td>
+                                  <select id="roomType" name="roomType" required>
+                                      <option value="" disabled selected>Wybierz rodzaj pokoju</option>
+                                      <option value="luxury">Luxury</option>
+                                      <option value="business">Business</option>
+                                      <option value="comfort">Comfort</option>
+                                  </select>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td><label for="promoCode">Kod Promocyjny</label></td>
+                              <td><input type="text" id="promoCode" name="promoCode"></td>
+                          </tr>
+                          <tr>
+                              <td colspan="2"><button type="button" onclick="calculateReservation()">Oblicz rezerwację</button></td>
+                          </tr>
+                          <tr>
+                              <td colspan="2"><input type="reset" value="Wyczyść" class="button"></td>
+                          </tr>
+                      </table>
+                  </form>
+              
+                    <h2>Wyniki rezerwacji</h2>
+                    <p id="result"></p>
+                    <p> <a href="index.html">Strona Główna </a> </p>
+                </div>
+                <div class="in-main2">
+               
+                </div>
+                <div class="in-main">
+               
+                </div>
+                
+
+         </main>
+         
+         <footer>
+            <div id="tlo"></div>
+            <div id="napis">
+                <h3>Wardel <br>
+                    Hospitality</h3>
+            </div>
+            <hr>
+            <div class="info">
+                 <h4>Lokalizacja</h4>
+                 <p>123 Anywhere St. Any City ST 12345</p>
+                 <p>Tel: +123-456-7890</p>
+                 <p id="email">hello@reallygreatsite.com</p>
+            </div>
+            <div class="info">
+                 <h4>Godziny</h4>
+                 <p>Poniedzialek : 8 – 19</p>
+                 <p>Wtorek: 8 – 17</p>
+                 <p>Sroda: 8 – 17</p>
+                 <p>Czwartek: 8 – 17</p>
+                 <p id="currentTime"> </p>
+            </div>
+            <div class="info">
+                <h4>Social Media</h4>
+                <div class="Sociale"><img  src="../../Img/IG.png"  alt="zdj"></div>
+                <div class="Sociale"><img src="../../Img/FB.png" alt="zdj"></div>
+                <div class="Sociale"> <img src="../../Img/in.png" alt="zdj"></div>
+                <div class="Sociale"> <img src="../../Img/X.png" alt="zdj"> </div>
+           </div>
+           
+
+     </footer>
+         <script src="../../scripts/data.js"></script>
+         <script src="../../scripts/forms.js"></script>
+</body>
+</html>
